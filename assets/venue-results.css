@@ -1,0 +1,71 @@
+
+
+
+
+#cat_selection h2 {
+  border-top: thin solid #FFFFFF;
+  border-bottom: thin solid #FFFFFF;
+  border-left: thin solid #FFFFFF; }
+
+#cat_selection ol li .unchecked {
+  background-image: url(assets/blank_tick.png) !important;
+  background-repeat: no-repeat;
+  background-position: 38% 35%; }
+
+#cat_selection ol li .checked {
+  background-image: url(assets/green_tick.png) !important;
+  background-repeat: no-repeat;
+  background-position: 38% 35%; }
+
+#cat_selection ol li div {
+	border-top-color: #FEFEFE !important;
+	border-top-style: solid !important;
+	border-bottom-color: #FFFFFF !important;
+	border-bottom-style: solid !important;
+	border-width: thin !important;
+	height: 32px !important;
+	background-color: #9D9D9D;
+}
+
+#cat_selection ol li div label {
+  padding-left: 4px; }
+
+div#cat_selection {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	width: 490px;
+}
+
+.collapse {
+  height: auto;
+  width: auto;
+}
+
+.collapse.height {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+
+.collapse.width {
+  position: relative;
+  width: 0;
+  overflow: hidden;
+  -webkit-transition: width 0.35s ease;
+  -moz-transition: width 0.35s ease;
+  -o-transition: width 0.35s ease;
+  transition: width 0.35s ease;
+}
+
+.collapse.in.width {
+  width: auto;
+}
+
+.collapse.in.height {
+  height: auto;
+}
